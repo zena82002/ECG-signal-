@@ -514,4 +514,4 @@ plt.show()
 
 ## Results
 The CRNN model achieves an accuracy of 71% on the test set. and The CNN model achieves an accuracy of 70.7%
-Detailed performance metrics and plots are generated during evaluation. .
+Detailed performance metrics and plots are generated during evaluation.
