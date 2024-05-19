@@ -58,7 +58,7 @@ The classifier is built using a CRNN architecture. The model consists of:
     ```
 
 ## Results
-The model achieves an accuracy of X% on the test set. Detailed performance metrics can be found in the `results` directory.
+The model achieves an accuracy of 71% on the test set. Detailed in performance metrics .
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue for any changes or suggestions.
