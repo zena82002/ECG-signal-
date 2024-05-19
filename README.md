@@ -72,7 +72,7 @@ Extract and label the relevant classes from the dataset
 ```python
 def collect_and_label(dataset):
     df = pd.read_csv(dataset)
-    alpha = df['scp_codes'].str.split("'").str[1].str[-2:] == 'MI'
+    alpha = df['scp_codes'].str.split("'").str[1].str[-2:] == 'IMI'
     beta = df['scp_codes'].str.split("'").str[1] == 'NORM'
     df = df[alpha | beta]
     df['label'] = df['scp_codes'].str.split("'").str[1]
