@@ -31,7 +31,8 @@ The PTB-XL dataset is available at [PhysioNet](https://physionet.org/content/ptb
 - imbalanced-learn (imblearn)
 - TensorFlow
 - Keras
-You can install the necessary packages using pip:
+  
+ You can install the necessary packages using pip:
 ```bash
    pip install pandas numpy matplotlib wfdb scikit-learn imbalanced-learn tensorflow keras
  ```
